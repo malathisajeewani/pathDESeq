@@ -9,7 +9,6 @@ Depends: R (>= 3.1.0)
 Imports: statmod
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
-
 Description: A pathway-based approach of Differential Expression analysis for RNA-Seq gene expression data. The statistical methodology is  based on a Poisson-Gamma-Beta Markov Random Field model including Maximum Likelihood Estimators (MLE's), Method of Moment (MoM) for model parameter estimation and Iterative Conditional Mode (ICM) algorithm to determine parameter convergence. This package requires RNA-Seq normalized count data (e.g., in FPKM or RPKM format) as its input.
 License: GPL (>=2)
 NeedsCompilation: no
