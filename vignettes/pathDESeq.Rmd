@@ -118,7 +118,7 @@ data<-dataset.final[,-1]
 ###**Perform PGBMRF analysis using ICM algorithm**
 
 
-####**Step 6: Load gene interaction information**
+#####**Step 6: Load gene interaction information**
 
 
 ```{r}
@@ -133,7 +133,7 @@ In this analysis, we only use BioGRID database to form the neighbourhood structu
 that contain gene network/interaction information can be used to form the neighbourhood structure.
 
 
-####**Step 7: perform PGBMRF analysis **
+#####**Step 7: perform PGBMRF analysis **
 
 
 The **pgbmrfICM** function is a wrapper function which consists functions to perform the PGBMRF analysis. This function will perform two independent sample t-test to obtain initial DE states for given genes and will create the neighbourhood matrix based on available gene interaction information. After that this will estimate the parameters for PGBMRF model and will estimate the DE states for given genes using Iterative Conditional Mode algorithm [@BE86] with three iterative steps.
